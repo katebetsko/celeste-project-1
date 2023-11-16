@@ -12,4 +12,61 @@ requirements:
 5. Password should at least contain a digit
 if all requirements above are met, the method returns true, otherwise returns false
      */
+
+    public static void main(String[] args) {
+        String password = "JJJJJJj1";
+        System.out.println("Password is valid: " + passwordValidation(password));
+    }
+
+    public static boolean passwordValidation(String password){
+        if(password.length() < 6 || password.contains(" ")){
+            return false;
+        }
+
+        boolean hasUpper = false;
+        for(char ch : password.toCharArray()){
+            if(Character.isUpperCase(ch)){
+                hasUpper = true;
+                break;
+            }
+        }
+        if(!hasUpper){
+            return false;
+        }
+
+        boolean hasLower = false;
+        for(char ch : password.toCharArray()){
+            if(Character.isLowerCase(ch)){
+                hasLower = true;
+                break;
+            }
+        }
+        if(!hasLower){
+            return false;
+        }
+
+        boolean hasSpecial = false;
+        for(char ch : password.toCharArray()){
+            if(!Character.isLetterOrDigit(ch)){
+                hasSpecial = true;
+                break;
+            }
+        }
+        if(!hasSpecial){
+            return false;
+        }
+
+        boolean hasDigit = false;
+        for(char ch : password.toCharArray()){
+            if(Character.isDigit(ch)){
+                hasDigit = true;
+                break;
+            }
+        }
+        if(!hasDigit){
+            return false;
+        }
+
+        return true;
+    }
 }
