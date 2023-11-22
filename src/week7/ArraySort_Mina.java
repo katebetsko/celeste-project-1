@@ -22,32 +22,32 @@ public class ArraySort_Mina {
 
             for (int j = 0; j < array.length-1; j++) {
 
-                if(array[j] > array[j+1]){ // 7 > 8
+                if(array[j] > array[j+1]){
 
-                    int tempo = array[j]; // 7
+                    int tempo = array[j];
 
-                    array[j] = array[j+1]; // 7 = 8
+                    array[j] = array[j+1];
 
-                   array[j+1] = tempo; // 8 = 7
+                   array[j+1] = tempo;
                 }
             }
         }
         return array;
     }
 
-    public static int [] sortArrayDescending (int [] array){ //{2, 4, 10 , 400}
+    public static int [] sortArrayDescending (int [] array){
 
         for (int i = 0; i < array.length; i++) {
 
             for (int j = 0; j < array.length-1; j++) {
 
-                if(array[j +1] > array[j] ){ // 4 > 2
+                if(array[j +1] > array[j] ){
 
-                    int tempoNum= array[j]; // 2
+                    int tempoNum= array[j];
 
-                    array [j] = array[j +1]; //2 = 4
+                    array [j] = array[j +1];
 
-                    array[j+1] = tempoNum; // 2
+                    array[j+1] = tempoNum;
 
                 }
 
