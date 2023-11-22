@@ -6,7 +6,7 @@ public class SumOfDigitsString_Kate {
 Write a method that can return the sum of the digits in a string
      */
     public static void main(String[] args) {
-        String str = "abc123d4e5";
+        String str = "abc123d4e5gg3h2";
         System.out.println(sum(str));
     }
 
