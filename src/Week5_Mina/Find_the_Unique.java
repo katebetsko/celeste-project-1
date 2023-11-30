@@ -16,7 +16,6 @@ public class Find_the_Unique {
         if(str.indexOf(eachChar) == str.lastIndexOf(eachChar)){
             result+= eachChar;
         }
-
         }
         return result;
     }
