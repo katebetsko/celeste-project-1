@@ -1,4 +1,4 @@
-package week4_Kate;
+package week4.week4_Kate;
 
 public class FrequencyOfChars {
     /*
@@ -8,7 +8,7 @@ characters
 Ex: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
      */
     public static void main(String[] args) {
-        System.out.println(frequencyOfChars("AAABBCDD"));
+        System.out.println(frequencyOfChars("AAABBCDDF"));
 
     }
 

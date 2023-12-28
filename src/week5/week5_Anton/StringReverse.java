@@ -1,4 +1,4 @@
-package week5_Anton;
+package week5.week5_Anton;
 
 public class StringReverse {
 

@@ -1,4 +1,4 @@
-package week4_Kate;
+package week4.week4_Kate;
 
 public class RemoveDuplicates {
     /*

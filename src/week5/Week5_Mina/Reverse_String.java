@@ -1,4 +1,4 @@
-package Week5_Mina;
+package week5.Week5_Mina;
 
 public class Reverse_String {
 

@@ -1,8 +1,8 @@
-package week5_Kate;
+package week5.week5_Kate;
 
 public class FindTheUnique {
     public static void main(String[] args) {
-        System.out.println(findUnique("AAABBBCCCDEF"));
+        System.out.println(findUnique("AAABBBCCCDEFA"));
     }
 
     public static String findUnique(String str){

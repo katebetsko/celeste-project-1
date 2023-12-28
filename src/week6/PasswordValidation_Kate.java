@@ -14,7 +14,7 @@ if all requirements above are met, the method returns true, otherwise returns fa
      */
 
     public static void main(String[] args) {
-        String password = "Java11";
+        String password = "Java111";
         System.out.println("Password is valid: " + passwordValidation(password));
     }
 

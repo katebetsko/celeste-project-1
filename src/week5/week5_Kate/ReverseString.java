@@ -1,4 +1,4 @@
-package week5_Kate;
+package week5.week5_Kate;
 
 public class ReverseString {
     public static void main(String[] args) {
